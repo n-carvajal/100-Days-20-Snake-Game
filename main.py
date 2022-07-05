@@ -172,7 +172,6 @@ def add_snake_segment(coordinates):
     'coordinates' = snake_segments[-1].position()
     """
     x_pos, y_pos = coordinates
-    x_pos -= snake_segment_default_size * snake_growth_factor
     snake_segment = Turtle()
     snake_segment.hideturtle()
     snake_segment.penup()
